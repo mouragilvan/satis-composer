@@ -9,7 +9,9 @@
   Qualquer dúvida envie um e-mail para ti.gilvan@gmail.com que eu respondo assim que puder.
 </p>
 <hr>
+
 #### Caso precise autenticar no gitlab
+
 ```
 composer config github-oauth.github.com  <API KEY GITHUB>
 ```

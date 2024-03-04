@@ -1,3 +1,9 @@
+<h1>
+<img src="https://cdn.pixabay.com/photo/2017/02/01/12/04/bird-2029969_1280.png" style="width: 200px; float: left"/>
+
+Custom and Simple Satis Server
+</h1>
+
 # Configurações do repositório
 
 ## Importante!

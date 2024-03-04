@@ -1,0 +1,30 @@
+version: '3.1'
+
+services:
+
+  satis-server:
+    build:
+      context: ./
+      dockerfile: Dockerfile      
+    container_name: 'meu-composer'
+    restart: always
+    ports:
+      - '80:80'  
+    environment:
+      -  PHP_MEMORY_LIMIT=-1   
+    networks:
+     - skynet
+    volumes:
+      - ./satis:/var/www/html/    
+
+  # Container para testes
+  web:
+   image: webdevops/php-apache:8.2-alpine
+   container_name: app
+   networks:
+     - skynet
+     
+# Rede externa
+networks:
+  skynet:
+   external: true

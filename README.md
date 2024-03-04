@@ -35,7 +35,7 @@ php bin/satis build satis.json repo
 cp -R repo /app
 ```
 
-#### Remover o diretório da build gerada
+#### Remover o diretório da build DEPOIS DE TER SIDO GERADA E COPIADA A BUILD PARA O DIRETÓRIO DO APACHE (comando a ser executado dentro de /var/www/html do container)
 ```
 cp -R repo /app
 ```

@@ -1,0 +1,286 @@
+{
+    "name": "custom/packages",
+    "homepage": "https://meu-composer/repo/",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "/var/www/html/php-stan"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/laravel/laravel.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/laravel/framework.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/sebastianbergmann/phpunit.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/guzzle/guzzle.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/laravel/sanctum.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/laravel/tinker.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/FakerPHP/Faker.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/laravel/pint.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/laravel/sail.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/mockery/mockery.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/nunomaduro/collision.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/spatie/laravel-ignition.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/guzzle/promises.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/guzzle/psr7.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/php-fig/http-client.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/psalm/psalm-plugin-phpunit.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/vimeo/psalm.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/doctrine/lexer.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/brick/math.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/doctrine/inflector.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/dragonmantank/cron-expression.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/egulias/EmailValidator.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/fruitcake/php-cors.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/guzzle/uri-template.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/laravel/prompts.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/laravel/serializable-closure.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/thephpleague/commonmark.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/thephpleague/flysystem.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/Seldaek/monolog.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/briannesbitt/Carbon.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/nunomaduro/termwind.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/php-fig/container.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/php-fig/log.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/php-fig/simple-cache.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/ramsey/uuid.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/console.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/error-handler.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/var-dumper.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/finder.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/rate-limiter.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/expression-language.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/mime.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/dependency-injection.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/cache.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/predis/predis.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/http-kernel.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-php83.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-mbstring.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/doctrine/dbal.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/http-foundation.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/php-fig/event-dispatcher.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/service-contracts.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/mailer.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/process.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/config.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/yaml.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/routing.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/uid.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/tijsverkoyen/CssToInlineStyles.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/GrahamCampbell/Result-Type.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/schmittjoh/php-option.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-ctype.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-php80.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/bamarni/composer-bin-plugin.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/vlucas/phpdotenv.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/voku/portable-ascii.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/webmozarts/assert.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/doctrine/coding-standard.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-intl-idn.git"
+        }
+    ]
+}

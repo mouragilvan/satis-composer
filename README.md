@@ -36,7 +36,7 @@ docker exec -it <nome do conteiner ou ID> /bin/bash
 composer create-project composer/satis:dev-main .
 composer install
 ```
-
+#### Copiar o satis.json para dentro de /satis
 
 #### Caso precise autenticar no gitlab
 ```
@@ -59,7 +59,7 @@ cp -R repo /app
 
 #### Remover o diretório da build DEPOIS DE TER SIDO GERADA E COPIADA A BUILD PARA O DIRETÓRIO /APP DO CONTAINER (comando a ser executado dentro de /var/www/html do container)
 ```
-cp -R repo /app
+rm -r repo
 ```
 
         

@@ -420,10 +420,6 @@
         },
         {
             "type": "git",
-            "url": "https://github.com/phpstan/extension-installer.git"
-        },
-        {
-            "type": "git",
             "url": "https://github.com/briannesbitt/Carbon.git"
         },
         {
@@ -581,6 +577,238 @@
         {
             "type": "git",
             "url": "https://github.com/ramsey/uuid.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/bobthecow/psysh.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/filp/whoops.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/myclabs/DeepCopy.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/phar-io/manifest.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/phar-io/version.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/sebastianbergmann/php-code-coverage.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/sebastianbergmann/php-file-iterator.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/sebastianbergmann/php-invoker.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/sebastianbergmann/php-text-template.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/sebastianbergmann/php-timer.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/sebastianbergmann/cli-parser.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/sebastianbergmann/code-unit.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/sebastianbergmann/comparator.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/sebastianbergmann/diff.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/sebastianbergmann/environment.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/sebastianbergmann/exporter.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/sebastianbergmann/global-state.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/sebastianbergmann/object-enumerator.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/sebastianbergmann/type.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/sebastianbergmann/version.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/sebastianbergmann/recursion-context.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/spatie/flare-client-php.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/illuminate/cache.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/paratestphp/paratest.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/pestphp/pest-plugin.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/pestphp/pest-plugin-arch.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/phpstan/phpstan-deprecation-rules.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/chillerlan/php-cache.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/spatie/ignition.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/illuminate/pipeline.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/illuminate/session.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/illuminate/http.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/guzzle/uri-template.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/illuminate/routing.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/illuminate/validation.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/orchestral/testbench-core.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/orchestral/workbench.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/orchestral/testbench-dusk.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/calebporzio/sushi.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/livewire/livewire.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/openai-php/client.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/php-fig/http-factory.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/php-fig/http-message.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/ralouphie/getallheaders.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/http-interop/http-factory-tests.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/event-dispatcher.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/browser-kit.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/css-selector.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/dom-crawler.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/property-access.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/serializer.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/stopwatch.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/validator.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/twigphp/Twig.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/form.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/doctrine-bridge.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/twig-bridge.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-uuid.git"
         }
     ]
 }

@@ -48,6 +48,7 @@ composer config --global github-oauth.github.com <TOKEN>
 
 
 #### Rodar a build do Satis
+###### Você pode especificar a biblioteca, mas caso queira rodar tudo basta remover a referência nome/biblioteca
 ```
 php bin/satis  build satis.json /app/repo  nome/biblioteca
 ```

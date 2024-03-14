@@ -9,10 +9,6 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/symfony/yaml.git"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/symfony/routing.git"
         },
         {

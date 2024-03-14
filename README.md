@@ -40,7 +40,7 @@ composer install
 
 #### Caso precise autenticar no gitlab
 ```
-composer config github-oauth.github.com  <API KEY>
+composer config --global github-oauth.github.com <TOKEN>
 ```
 
 #### Crie o arquivo satis.json com base no modelo satis.json na raiz do projeto dentro de /var/www/html/ do conteiner
@@ -49,7 +49,7 @@ composer config github-oauth.github.com  <API KEY>
 
 #### Rodar a build do Satis
 ```
-php bin/satis build satis.json repo
+php bin/satis  build satis.json /app/repo  nome/biblioteca
 ```
 
 #### Copiar a build e colocar no diretório de leitura do apache 
@@ -62,5 +62,5 @@ cp -R repo /app
 rm -r repo
 ```
 
-        
+
         

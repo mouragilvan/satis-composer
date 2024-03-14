@@ -1,814 +1,327 @@
 {
     "name": "custom/packages",
     "homepage": "https://meu-composer/repo/",
+    "require-all": true,
+    "archive": {
+        "directory": "dist",
+        "skip-dev": true
+    },
     "repositories": [
         {
-            "type": "git",
-            "url": "https://github.com/phpstan/phpstan.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/laravel/laravel.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/laravel/framework.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/sebastianbergmann/phpunit.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/guzzle/guzzle.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/laravel/sanctum.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/laravel/tinker.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/FakerPHP/Faker.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/laravel/pint.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/laravel/sail.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/mockery/mockery.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/nunomaduro/collision.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/spatie/laravel-ignition.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/guzzle/promises.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/guzzle/psr7.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/php-fig/http-client.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/psalm/psalm-plugin-phpunit.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/vimeo/psalm.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/doctrine/lexer.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/brick/math.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/doctrine/inflector.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/dragonmantank/cron-expression.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/egulias/EmailValidator.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/fruitcake/php-cors.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/guzzle/uri-template.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/laravel/prompts.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/laravel/serializable-closure.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/thephpleague/commonmark.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/thephpleague/flysystem.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/Seldaek/monolog.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/briannesbitt/Carbon.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/nunomaduro/termwind.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/php-fig/container.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/php-fig/log.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/php-fig/simple-cache.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/ramsey/uuid.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/symfony/console.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/symfony/error-handler.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/symfony/var-dumper.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/symfony/finder.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/symfony/rate-limiter.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/symfony/expression-language.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/symfony/mime.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/symfony/dependency-injection.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/symfony/cache.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/predis/predis.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/symfony/http-kernel.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/symfony/polyfill-php83.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/symfony/polyfill-mbstring.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/doctrine/dbal.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/symfony/http-foundation.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/php-fig/event-dispatcher.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/symfony/service-contracts.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/symfony/mailer.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/symfony/process.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/symfony/config.git"
-        },
-        {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/symfony/yaml.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/symfony/routing.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/symfony/uid.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/tijsverkoyen/CssToInlineStyles.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/GrahamCampbell/Result-Type.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/schmittjoh/php-option.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/symfony/polyfill-ctype.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/symfony/polyfill-php80.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/bamarni/composer-bin-plugin.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/vlucas/phpdotenv.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/voku/portable-ascii.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/webmozarts/assert.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/doctrine/coding-standard.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/symfony/polyfill-intl-idn.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/thephpleague/config.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/illuminate/console.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/thephpleague/commonmark.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/illuminate/contracts.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/illuminate/database.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/illuminate/support.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/orchestral/testbench.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/laravel/sanctum.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/illuminate/conditionable.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/illuminate/macroable.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/illuminate/collections.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/CarbonPHP/carbon-doctrine-types.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/php-fig/clock.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/nikic/PHP-Parser.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/symfony/http-client-contracts.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/symfony/intl.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/symfony/polyfill-intl-icu.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/php-fig/log.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/symfony/translation.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/symfony/deprecation-contracts.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/illuminate/support.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/symfony/clock.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/doctrine/deprecations.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/doctrine/event-manager.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/doctrine/instantiator.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/doctrine/persistence.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/php-fig/cache.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/symfony/var-exporter.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/phpbench/phpbench.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/squizlabs/PHP_CodeSniffer.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/kylekatarnls/multi-tester.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/ondrejmirtes/BetterReflection.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/phpmd/phpmd.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/briannesbitt/Carbon.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/thephpleague/commonmark.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/illuminate/container.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/illuminate/events.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/illuminate/filesystem.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/illuminate/view.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/symfony/polyfill-intl-grapheme.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/symfony/polyfill-intl-normalizer.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/symfony/translation-contracts.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/thephpleague/mime-type-detection.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/thephpleague/flysystem-local.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/symfony/string.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/captainhookphp/plugin-composer.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/ergebnis/composer-normalize.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/hamcrest/hamcrest-php.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/Jan0707/phpstan-prophecy.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/php-parallel-lint/PHP-Console-Highlighter.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/php-parallel-lint/PHP-Parallel-Lint.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/PHPCSStandards/PHPCSUtils.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/phpspec/prophecy-phpunit.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/phpstan/extension-installer.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/phpstan/phpstan-mockery.git"
         },
         {
-            "type": "git",
-            "url": "https://github.com/phpstan/phpstan-phpunit.git"
-        },
-        {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/psalm/psalm-plugin-mockery.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/psalm/psalm-plugin-phpunit.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/ramsey/coding-standard.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/ramsey/conventional-commits.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/ramsey/collection.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/captainhookphp/captainhook.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/captainhookphp/plugin-composer.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/PHPCSStandards/composer-installer.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/doctrine/annotations.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/ergebnis/composer-normalize.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/paragonie/RandomLib.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/php-mock/php-mock.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/php-mock/php-mock-mockery.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/php-parallel-lint/PHP-Parallel-Lint.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/ramsey/composer-repl.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/slevomat/coding-standard.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/ramsey/uuid.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/bobthecow/psysh.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/filp/whoops.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/myclabs/DeepCopy.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/phar-io/manifest.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/phar-io/version.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/sebastianbergmann/php-code-coverage.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/sebastianbergmann/php-file-iterator.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/sebastianbergmann/php-invoker.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/sebastianbergmann/php-text-template.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/sebastianbergmann/php-timer.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/sebastianbergmann/cli-parser.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/sebastianbergmann/code-unit.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/sebastianbergmann/comparator.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/sebastianbergmann/diff.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/sebastianbergmann/environment.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/sebastianbergmann/exporter.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/sebastianbergmann/global-state.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/sebastianbergmann/object-enumerator.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/sebastianbergmann/type.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/sebastianbergmann/version.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/sebastianbergmann/recursion-context.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/spatie/flare-client-php.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/illuminate/cache.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/paratestphp/paratest.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/pestphp/pest-plugin.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/pestphp/pest-plugin-arch.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/phpstan/phpstan-deprecation-rules.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/chillerlan/php-cache.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/spatie/ignition.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/illuminate/pipeline.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/illuminate/session.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/illuminate/http.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/guzzle/uri-template.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/illuminate/routing.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/illuminate/validation.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/orchestral/testbench-core.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/orchestral/workbench.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/orchestral/testbench-dusk.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/calebporzio/sushi.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/livewire/livewire.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/openai-php/client.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/php-fig/http-factory.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/php-fig/http-message.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/ralouphie/getallheaders.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/http-interop/http-factory-tests.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/symfony/event-dispatcher.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/symfony/browser-kit.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/symfony/css-selector.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/symfony/dom-crawler.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/symfony/property-access.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/symfony/serializer.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/symfony/stopwatch.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/symfony/validator.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/twigphp/Twig.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/symfony/form.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/symfony/doctrine-bridge.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/symfony/twig-bridge.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/symfony/polyfill-uuid.git"
         }
     ]
 }

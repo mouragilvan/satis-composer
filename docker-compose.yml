@@ -16,6 +16,7 @@ services:
      - skynet
     volumes:
       - ./satis:/var/www/html/    
+      - ./repo:/app/repo/
 
   # Container para testes
   web:

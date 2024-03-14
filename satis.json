@@ -318,10 +318,6 @@
         {
             "type": "vcs",
             "url": "https://github.com/PHPCSStandards/composer-installer.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/doctrine/annotations.git"
         }
     ]
 }

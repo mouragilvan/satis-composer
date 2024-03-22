@@ -11,7 +11,7 @@ Custom and Simple Satis Server
 <p>
   Este projeto foi gerado a partir do Satis.</br>
   Levei em conta que você já tenha o Docker instalado na sua máquina.
-  Os comandos abaixo devem ser executados dentro do conteiner PHP criado
+  Os comandos abaixo devem ser executados dentro do conteiner PHP criado: meu-composer (Nome dado no docker-compose.yml)
 </p>
 <hr>
 
@@ -63,5 +63,13 @@ cp -R repo /app
 rm -r repo
 ```
 
+## RUN CRON JOB
+<p>Copie o arquivo run.php para dentro do volume /satis</p>
+<p>Este arquivo run.php recebe dois parâmetros o valor inicial e o valor final que serve para definir de qual pacote até tal pacote deseja executar a build do Satis. Por exemplo, iniciando na posição 0 até a posição 10 do array da lista de repositories:</p>
+
+```
+php run.php 0 10
+```
+ 
 
         

@@ -26,9 +26,10 @@ if (file_exists(__DIR__ . "/satis.json")) {
         if ($key >= $primeiro && $key <= $ultimo) {
             $result .= $data->repositories[$key]->name . ":\n";
             exec("php bin/satis  build satis.json /app/repo {$data->repositories[$key]->name}", $output) . "\n\n";
-            $result .= implode("\n", $output);
+            $result .= implode("\n", array_slice($output, 0, 7));
+            $result .= "\n-----------------------------------------\n\n";
         }
     }
 
-    file_put_contents(__DIR__ . '/logs/log_' . uniqid() . '_' . date("d-m-Y") . '.log', $result, FILE_APPEND);
+    file_put_contents(__DIR__ . '/logs/log_' . date("d-m-Y") . '.log', $result, FILE_APPEND);
 }

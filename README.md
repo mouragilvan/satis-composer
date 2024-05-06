@@ -28,14 +28,6 @@ docker exec -it <nome do conteiner ou ID> /bin/bash
 ```
 
 
-#### Criar o projeto do satis dentro do conteiner
-<p>Criar um projeto do satis dentro de /var/www/html do conteiner</p>
-<p>Importante! O projeto do satis deve estar em /var/www/html</p>
-
-```
-composer create-project composer/satis:dev-main .
-composer install
-```
 #### Copiar o satis.json para dentro de /satis
 
 #### Caso precise autenticar no gitlab

@@ -1,0 +1,1387 @@
+{
+    "name": "custom/packages",
+    "homepage": "https://meu-composer/repo/",
+    "require-all": false,
+    "minimum-stability": "stable",
+    "archive": {
+        "directory": "dist",
+        "skip-dev": true,
+        "prefix-url": "http://meu-composer/repo"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/MarkBaker/PHPMatrix.git",
+            "name": "markbaker/matrix"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/voku/anti-xss.git",
+            "name": "voku/anti-xss"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/MarkBaker/PHPMatrixFunctions.git",
+            "name": "markbaker/matrix-functions"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/MarkBaker/PHPComplex.git",
+            "name": "markbaker/complex"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/maennchen/ZipStream-PHP.git",
+            "name": "maennchen/zipstream-php"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ezyang/htmlpurifier.git",
+            "name": "ezyang/htmlpurifier"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/composer/semver.git",
+            "name": "composer/semver"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/PHPOffice/PhpSpreadsheet.git",
+            "name": "phpoffice/phpspreadsheet"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/SpartnerNL/Laravel-Excel.git",
+            "name": "maatwebsite/excel"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/illuminate/cache.git",
+            "name": "illuminate/cache"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/paratestphp/paratest.git",
+            "name": "brianium/paratest"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/pestphp/pest-plugin.git",
+            "name": "pestphp/pest-plugin"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/pestphp/pest-plugin-arch.git",
+            "name": "pestphp/pest-plugin-arch"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/phpstan/phpstan-deprecation-rules.git",
+            "name": "phpstan/phpstan-deprecation-rules"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/chillerlan/php-cache.git",
+            "name": "chillerlan/php-cache"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/spatie/ignition.git",
+            "name": "spatie/ignition"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/illuminate/pipeline.git",
+            "name": "illuminate/pipeline"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/illuminate/session.git",
+            "name": "illuminate/session"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/illuminate/http.git",
+            "name": "illuminate/http"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/guzzle/uri-template.git",
+            "name": "guzzlehttp/uri-template"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/illuminate/routing.git",
+            "name": "illuminate/routing"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/illuminate/validation.git",
+            "name": "illuminate/validation"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/orchestral/testbench-core.git",
+            "name": "orchestra/testbench-core"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/config.git",
+            "name": "symfony/config"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/orchestral/workbench.git",
+            "name": "orchestra/workbench"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/orchestral/testbench-dusk.git",
+            "name": "orchestra/testbench-dusk"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/calebporzio/sushi.git",
+            "name": "calebporzio/sushi"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/livewire/livewire.git",
+            "name": "livewire/livewire"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/openai-php/client.git",
+            "name": "openai-php/client"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/php-fig/http-factory.git",
+            "name": "psr/http-factory"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/php-fig/http-message.git",
+            "name": "psr/http-message"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ralouphie/getallheaders.git",
+            "name": "ralouphie/getallheaders"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/http-interop/http-factory-tests.git",
+            "name": "http-interop/http-factory-tests"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/event-dispatcher.git",
+            "name": "symfony/event-dispatcher"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/browser-kit.git",
+            "name": "symfony/browser-kit"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/css-selector.git",
+            "name": "symfony/css-selector"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/dom-crawler.git",
+            "name": "symfony/dom-crawler"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/property-access.git",
+            "name": "symfony/property-access"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/serializer.git",
+            "name": "symfony/serializer"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/stopwatch.git",
+            "name": "symfony/stopwatch"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/validator.git",
+            "name": "symfony/validator"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/twigphp/Twig.git",
+            "name": "twig/twig"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/form.git",
+            "name": "symfony/form"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/doctrine-bridge.git",
+            "name": "symfony/doctrine-bridge"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/twig-bridge.git",
+            "name": "symfony/twig-bridge"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/polyfill-uuid.git",
+            "name": "symfony/polyfill-uuid"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/code-unit-reverse-lookup.git",
+            "name": "sebastian/code-unit-reverse-lookup"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/complexity.git",
+            "name": "sebastian/complexity"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/lines-of-code.git",
+            "name": "sebastian/lines-of-code"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/theseer/tokenizer.git",
+            "name": "theseer/tokenizer"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/object-reflector.git",
+            "name": "sebastian/object-reflector"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/spatie/phpunit-snapshot-assertions.git",
+            "name": "spatie/phpunit-snapshot-assertions"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/spatie/backtrace.git",
+            "name": "spatie/backtrace"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/process.git",
+            "name": "symfony/process"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/service-contracts.git",
+            "name": "symfony/service-contracts"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/mailer.git",
+            "name": "symfony/mailer"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/dflydev/dflydev-dot-access-data.git",
+            "name": "dflydev/dot-access-data"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/schmittjoh/serializer.git",
+            "name": "jms/serializer"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/phpstan/phpstan-phpunit.git",
+            "name": "phpstan/phpstan-phpunit"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/scrutinizer-ci/ocular.git",
+            "name": "scrutinizer/ocular"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/php-fig/event-dispatcher.git",
+            "name": "psr/event-dispatcher"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/nette/utils.git",
+            "name": "nette/utils"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/nette/tester.git",
+            "name": "nette/tester"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/nette/tracy.git",
+            "name": "tracy/tracy"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/phpstan/phpstan-nette.git",
+            "name": "phpstan/phpstan-nette"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/nette/schema.git",
+            "name": "nette/schema"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/nette/di.git",
+            "name": "nette/di"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/polyfill-php72.git",
+            "name": "symfony/polyfill-php72"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/polyfill-php70.git",
+            "name": "symfony/polyfill-php70"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/nette/http.git",
+            "name": "nette/http"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/nette/security.git",
+            "name": "nette/security"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/filesystem.git",
+            "name": "symfony/filesystem"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/nette/mail.git",
+            "name": "nette/mail"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/JetBrains/phpstorm-attributes.git",
+            "name": "jetbrains/phpstorm-attributes"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/nette/finder.git",
+            "name": "nette/finder"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/laravel/pint.git",
+            "name": "laravel/pint"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/type.git",
+            "name": "sebastian/type"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/version.git",
+            "name": "sebastian/version"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/exporter.git",
+            "name": "sebastian/exporter"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/global-state.git",
+            "name": "sebastian/global-state"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/object-enumerator.git",
+            "name": "sebastian/object-enumerator"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/comparator.git",
+            "name": "sebastian/comparator"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/diff.git",
+            "name": "sebastian/diff"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/environment.git",
+            "name": "sebastian/environment"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/php-text-template.git",
+            "name": "phpunit/php-text-template"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/php-timer.git",
+            "name": "phpunit/php-timer"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/cli-parser.git",
+            "name": "sebastian/cli-parser"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/code-unit.git",
+            "name": "sebastian/code-unit"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/php-invoker.git",
+            "name": "phpunit/php-invoker"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
+            "name": "phpunit/php-file-iterator"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
+            "name": "phpunit/php-code-coverage"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/phar-io/version.git",
+            "name": "phar-io/version"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/phar-io/manifest.git",
+            "name": "phar-io/manifest"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/myclabs/DeepCopy.git",
+            "name": "myclabs/deep-copy"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/http-foundation.git",
+            "name": "symfony/http-foundation"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/doctrine/dbal.git",
+            "name": "doctrine/dbal"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/polyfill-mbstring.git",
+            "name": "symfony/polyfill-mbstring"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/polyfill-php83.git",
+            "name": "symfony/polyfill-php83"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/event-dispatcher-contracts.git",
+            "name": "symfony/event-dispatcher-contracts"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/http-kernel.git",
+            "name": "symfony/http-kernel"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/predis/predis.git",
+            "name": "predis/predis"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/cache.git",
+            "name": "symfony/cache"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/dependency-injection.git",
+            "name": "symfony/dependency-injection"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/mime.git",
+            "name": "symfony/mime"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/expression-language.git",
+            "name": "symfony/expression-language"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/rate-limiter.git",
+            "name": "symfony/rate-limiter"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/finder.git",
+            "name": "symfony/finder"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/var-dumper.git",
+            "name": "symfony/var-dumper"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/error-handler.git",
+            "name": "symfony/error-handler"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/php-fig/container.git",
+            "name": "psr/container"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/php-fig/log.git",
+            "name": "psr/log"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/php-fig/simple-cache.git",
+            "name": "psr/simple-cache"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ramsey/uuid.git",
+            "name": "ramsey/uuid"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/console.git",
+            "name": "symfony/console"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/nunomaduro/termwind.git",
+            "name": "nunomaduro/termwind"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/briannesbitt/Carbon.git",
+            "name": "nesbot/carbon"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Seldaek/monolog.git",
+            "name": "monolog/monolog"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/thephpleague/flysystem.git",
+            "name": "league/flysystem"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/guzzle/uri-template.git",
+            "name": "guzzlehttp/uri-template"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/laravel/prompts.git",
+            "name": "laravel/prompts"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/laravel/serializable-closure.git",
+            "name": "laravel/serializable-closure"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/thephpleague/commonmark.git",
+            "name": "league/commonmark"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/egulias/EmailValidator.git",
+            "name": "egulias/email-validator"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/fruitcake/php-cors.git",
+            "name": "fruitcake/php-cors"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/dragonmantank/cron-expression.git",
+            "name": "dragonmantank/cron-expression"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/brick/math.git",
+            "name": "brick/math"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/doctrine/inflector.git",
+            "name": "doctrine/inflector"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/doctrine/lexer.git",
+            "name": "doctrine/lexer"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/vimeo/psalm.git",
+            "name": "vimeo/psalm"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/psalm/psalm-plugin-phpunit.git",
+            "name": "psalm/plugin-phpunit"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/guzzle/psr7.git",
+            "name": "guzzlehttp/psr7"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/php-fig/http-client.git",
+            "name": "psr/http-client"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/guzzle/promises.git",
+            "name": "guzzlehttp/promises"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/spatie/laravel-ignition.git",
+            "name": "spatie/laravel-ignition"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/nunomaduro/collision.git",
+            "name": "nunomaduro/collision"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mockery/mockery.git",
+            "name": "mockery/mockery"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/laravel/sail.git",
+            "name": "laravel/sail"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/FakerPHP/Faker.git",
+            "name": "fakerphp/faker"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/laravel/tinker.git",
+            "name": "laravel/tinker"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/laravel/sanctum.git",
+            "name": "laravel/sanctum"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/guzzle/guzzle.git",
+            "name": "guzzlehttp/guzzle"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/laravel/framework.git",
+            "name": "laravel/framework"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/laravel/laravel.git",
+            "name": "laravel/laravel"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/phpstan/phpstan.git",
+            "name": "phpstan/phpstan"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/phpunit.git",
+            "name": "phpunit/phpunit"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/spatie/flare-client-php.git",
+            "name": "spatie/flare-client-php"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/recursion-context.git",
+            "name": "sebastian/recursion-context"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/filp/whoops.git",
+            "name": "filp/whoops"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bobthecow/psysh.git",
+            "name": "psy/psysh"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/slevomat/coding-standard.git",
+            "name": "slevomat/coding-standard"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/php-parallel-lint/PHP-Parallel-Lint.git",
+            "name": "php-parallel-lint/php-parallel-lint"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/php-mock/php-mock-mockery.git",
+            "name": "php-mock/php-mock-mockery"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/php-mock/php-mock.git",
+            "name": "php-mock/php-mock"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/paragonie/RandomLib.git",
+            "name": "paragonie/random-lib"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ergebnis/composer-normalize.git",
+            "name": "ergebnis/composer-normalize"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/doctrine/annotations.git",
+            "name": "doctrine/annotations"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/yaml.git",
+            "name": "symfony/yaml"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/routing.git",
+            "name": "symfony/routing"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/uid.git",
+            "name": "symfony/uid"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/captainhookphp/plugin-composer.git",
+            "name": "captainhook/plugin-composer"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/PHPCSStandards/composer-installer.git",
+            "name": "dealerdirect/phpcodesniffer-composer-installer"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/tijsverkoyen/CssToInlineStyles.git",
+            "name": "tijsverkoyen/css-to-inline-styles"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/GrahamCampbell/Result-Type.git",
+            "name": "graham-campbell/result-type"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/schmittjoh/php-option.git",
+            "name": "phpoption/phpoption"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/polyfill-ctype.git",
+            "name": "symfony/polyfill-ctype"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/polyfill-php80.git",
+            "name": "symfony/polyfill-php80"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bamarni/composer-bin-plugin.git",
+            "name": "bamarni/composer-bin-plugin"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/vlucas/phpdotenv.git",
+            "name": "vlucas/phpdotenv"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/voku/portable-ascii.git",
+            "name": "voku/portable-ascii"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/webmozarts/assert.git",
+            "name": "webmozart/assert"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/doctrine/coding-standard.git",
+            "name": "doctrine/coding-standard"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/polyfill-intl-idn.git",
+            "name": "symfony/polyfill-intl-idn"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/thephpleague/config.git",
+            "name": "league/config"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/illuminate/console.git",
+            "name": "illuminate/console"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/illuminate/database.git",
+            "name": "illuminate/database"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/nikic/PHP-Parser.git",
+            "name": "nikic/php-parser"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/illuminate/contracts.git",
+            "name": "illuminate/contracts"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/illuminate/support.git",
+            "name": "illuminate/support"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/orchestral/testbench.git",
+            "name": "orchestra/testbench"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/illuminate/conditionable.git",
+            "name": "illuminate/conditionable"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/illuminate/macroable.git",
+            "name": "illuminate/macroable"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/illuminate/collections.git",
+            "name": "illuminate/collections"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/CarbonPHP/carbon-doctrine-types.git",
+            "name": "carbonphp/carbon-doctrine-types"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/php-fig/clock.git",
+            "name": "psr/clock"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/http-client-contracts.git",
+            "name": "symfony/http-client-contracts"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/intl.git",
+            "name": "symfony/intl"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/polyfill-intl-icu.git",
+            "name": "symfony/polyfill-intl-icu"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/translation.git",
+            "name": "symfony/translation"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/deprecation-contracts.git",
+            "name": "symfony/deprecation-contracts"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/clock.git",
+            "name": "symfony/clock"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/doctrine/deprecations.git",
+            "name": "doctrine/deprecations"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/doctrine/event-manager.git",
+            "name": "doctrine/event-manager"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/doctrine/instantiator.git",
+            "name": "doctrine/instantiator"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/doctrine/persistence.git",
+            "name": "doctrine/persistence"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/php-fig/cache.git",
+            "name": "psr/cache"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/var-exporter.git",
+            "name": "symfony/var-exporter"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/phpbench/phpbench.git",
+            "name": "phpbench/phpbench"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
+            "name": "squizlabs/php_codesniffer"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
+            "name": "friendsofphp/php-cs-fixer"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kylekatarnls/multi-tester.git",
+            "name": "kylekatarnls/multi-tester"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ondrejmirtes/BetterReflection.git",
+            "name": "ondrejmirtes/better-reflection"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/phpmd/phpmd.git",
+            "name": "phpmd/phpmd"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/illuminate/container.git",
+            "name": "illuminate/container"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/illuminate/events.git",
+            "name": "illuminate/events"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/illuminate/filesystem.git",
+            "name": "illuminate/filesystem"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/illuminate/view.git",
+            "name": "illuminate/view"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/polyfill-intl-grapheme.git",
+            "name": "symfony/polyfill-intl-grapheme"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
+            "name": "symfony/polyfill-intl-normalizer"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/translation-contracts.git",
+            "name": "symfony/translation-contracts"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/thephpleague/mime-type-detection.git",
+            "name": "league/mime-type-detection"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/thephpleague/flysystem-local.git",
+            "name": "league/flysystem-local"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/string.git",
+            "name": "symfony/string"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hamcrest/hamcrest-php.git",
+            "name": "hamcrest/hamcrest-php"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Jan0707/phpstan-prophecy.git",
+            "name": "jangregor/phpstan-prophecy"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/php-parallel-lint/PHP-Console-Highlighter.git",
+            "name": "php-parallel-lint/php-console-highlighter"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/PHPCSStandards/PHPCSUtils.git",
+            "name": "phpcsstandards/phpcsutils"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/phpspec/prophecy-phpunit.git",
+            "name": "phpspec/prophecy-phpunit"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/phpstan/extension-installer.git",
+            "name": "phpstan/extension-installer"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/phpstan/phpstan-mockery.git",
+            "name": "phpstan/phpstan-mockery"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/psalm/psalm-plugin-mockery.git",
+            "name": "psalm/plugin-mockery"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ramsey/coding-standard.git",
+            "name": "ramsey/coding-standard"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ramsey/conventional-commits.git",
+            "name": "ramsey/conventional-commits"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ramsey/collection.git",
+            "name": "ramsey/collection"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/captainhookphp/captainhook.git",
+            "name": "captainhook/captainhook"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/laravel/scout.git",
+            "name": "laravel/scout"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/doctrine/cache.git",
+            "name": "doctrine/cache"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/phpspec/prophecy.git",
+            "name": "phpspec/prophecy"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/resource-operations.git",
+            "name": "sebastian/resource-operations"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
+            "name": "phpdocumentor/reflection-docblock"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": ">=10.5.12|^9.5.10",
+        "phpstan/phpstan": ">=1.10.58",
+        "laravel/laravel": ">=10.3.1",
+        "laravel/framework": ">=11.0|9.52.4|^9.21.0|9.21.0",
+        "guzzlehttp/guzzle": ">=7.8.0|^7.2",
+        "laravel/sanctum": ">=3.3",
+        "laravel/tinker": ">=2.8",
+        "fakerphp/faker": ">=1.9.1",
+        "laravel/sail": ">=1.27.4|1.0.1|1.1.0",
+        "mockery/mockery": ">=1.6.7",
+        "nunomaduro/collision": ">=7.0.0|6.4.0",
+        "spatie/laravel-ignition": ">=2.0.0|^1.0",
+        "guzzlehttp/promises": ">=1.5.0",
+        "guzzlehttp/psr7": ">=2.3.0",
+        "psalm/plugin-phpunit": ">=0.18.0",
+        "vimeo/psalm": ">=5.18.0",
+        "doctrine/lexer": ">=2.1.0",
+        "brick/math": ">=0.10.0",
+        "doctrine/inflector": ">=2.0",
+        "dragonmantank/cron-expression": ">=3.3.0",
+        "egulias/email-validator": ">=3.2.5",
+        "fruitcake/php-cors": ">=1.0.0",
+        "guzzlehttp/uri-template": ">=1.0.0",
+        "laravel/prompts": ">=0.1.14",
+        "laravel/serializable-closure": ">=1.3.0",
+        "league/commonmark": ">=2.3.8",
+        "league/flysystem": ">=3.14.0",
+        "monolog/monolog": ">=3.3.0|^2.0",
+        "nesbot/carbon": ">=2.72.2|2.59.1",
+        "nunomaduro/termwind": ">=1.15.0",
+        "psr/container": ">=2.0.0",
+        "psr/log": ">=1.0",
+        "psr/simple-cache": ">=2.0.0",
+        "ramsey/uuid": ">=4.7.3",
+        "symfony/console": ">=6.4.4",
+        "symfony/error-handler": ">=6.4.0",
+        "symfony/var-dumper": ">=7.0.0|6.4.4",
+        "symfony/finder": ">=6.4.0",
+        "symfony/rate-limiter": ">=7.0.0",
+        "symfony/expression-language": ">=6.1.11",
+        "symfony/mime": ">=6.4.0",
+        "symfony/dependency-injection": ">=7.0.1",
+        "symfony/cache": ">=7.0.0",
+        "predis/predis": ">=2.2.0",
+        "symfony/http-kernel": ">=7.0.2|^6.4",
+        "symfony/event-dispatcher-contracts": ">=3.3.0",
+        "symfony/polyfill-mbstring": ">=1.27.0",
+        "doctrine/dbal": ">=3.5",
+        "symfony/http-foundation": ">=7.0.0|^6.0",
+        "myclabs/deep-copy": ">=1.10.1",
+        "phar-io/manifest": ">=2.0.3",
+        "phar-io/version": ">=3.2.1",
+        "phpunit/php-code-coverage": ">=10.1.5|^9.2.7",
+        "phpunit/php-file-iterator": ">=5.0.0|^4.0|3.0.6",
+        "phpunit/php-invoker": ">=4.0.0|^3.1.1",
+        "phpunit/php-text-template": ">=4.0.0|^3.0|^2.0.3",
+        "phpunit/php-timer": ">=7.0.0|^6.0|^5.0.2",
+        "sebastian/cli-parser": ">=3.0.0|^2.0|^1.0.1",
+        "sebastian/code-unit": ">=3.0.0|^2.0|^1.0.6",
+        "sebastian/comparator": ">=6.0.0|^5.0|^4.0.8",
+        "sebastian/diff": ">=6.0.0|^5.0|^4.0.3",
+        "sebastian/environment": ">=7.0.0|^6.0|^5.1.3",
+        "sebastian/exporter": ">=5.0.0|^4.0.3",
+        "sebastian/global-state": ">=7.0.0|^6.0|^5.0.1",
+        "sebastian/object-enumerator": ">=6.0.0|^5.0|^4.0.3",
+        "sebastian/type": ">=5.0.0|^4.0|^3.2|^3.0|^2.3.4",
+        "sebastian/version": ">=5.0.0|^4.0|^3.0.2",
+        "laravel/pint": ">=1.14.0|^1.0",
+        "nette/finder": ">=2.5.4",
+        "nette/mail": ">=4.0.2",
+        "symfony/filesystem": ">=7.0.3",
+        "nette/security": ">=3.2.0",
+        "nette/http": ">=3.2.3",
+        "symfony/polyfill-php70": ">=1.20.0",
+        "symfony/polyfill-php72": ">=1.28.0",
+        "nette/di": ">=3.1.8",
+        "nette/schema": ">=1.2.4",
+        "phpstan/phpstan-nette": ">=1.2.9",
+        "tracy/tracy": ">=2.10.5",
+        "nette/tester": ">=2.5.1",
+        "nette/utils": ">=v4.0.0",
+        "psr/event-dispatcher": ">=1.0.0",
+        "scrutinizer/ocular": ">=1.9",
+        "phpstan/phpstan-phpunit": ">=1.3.10",
+        "jms/serializer": ">=3.29.0",
+        "dflydev/dot-access-data": ">=v3.0.1",
+        "symfony/mailer": ">=7.0.2|^6.4",
+        "symfony/service-contracts": ">=3.4.1",
+        "symfony/process": ">=7.0.4|^6.4",
+        "sebastian/object-reflector": ">=3.0.0|^2.0",
+        "spatie/phpunit-snapshot-assertions": ">=5.1.5",
+        "spatie/backtrace": ">=1.5.3",
+        "sebastian/complexity": ">=4.0.0|^3.0|^2.0",
+        "sebastian/lines-of-code": ">=2.0|^1.0.3",
+        "theseer/tokenizer": ">=1.2.3",
+        "symfony/twig-bridge": ">=7.0.2",
+        "symfony/polyfill-uuid": ">=1.29.0",
+        "sebastian/code-unit-reverse-lookup": ">=3.0.0|^2.0.2",
+        "symfony/doctrine-bridge": ">=7.0.5",
+        "symfony/form": ">=7.0.4",
+        "twig/twig": ">=2.16.0",
+        "symfony/validator": ">=7.0.5",
+        "symfony/stopwatch": ">=7.0.3",
+        "symfony/serializer": ">=6.4.4",
+        "symfony/browser-kit": ">=6.4.3",
+        "symfony/property-access": ">=6.4.4",
+        "symfony/dom-crawler": ">=6.4.4",
+        "symfony/css-selector": ">=6.4.3",
+        "symfony/event-dispatcher": ">=7.0.3",
+        "http-interop/http-factory-tests": ">=2.1.0",
+        "ralouphie/getallheaders": ">=3.0.3",
+        "psr/http-message": ">=2.0",
+        "psr/http-factory": ">=1.0.2",
+        "openai-php/client": ">=0.8.4",
+        "livewire/livewire": ">=3.4.8",
+        "calebporzio/sushi": ">=2.5.1",
+        "orchestra/testbench-dusk": ">=8.23.0",
+        "orchestra/workbench": ">=9.0.0",
+        "symfony/config": ">=7.0.4",
+        "orchestra/testbench-core": ">=9.0.1",
+        "illuminate/routing": ">=11.0.3",
+        "illuminate/validation": ">=11.0.3",
+        "illuminate/http": ">=10.34.2",
+        "illuminate/session": ">=10.39.0",
+        "illuminate/pipeline": ">=10.38.2",
+        "spatie/ignition": ">=1.12.0",
+        "chillerlan/php-cache": ">=5.1.0",
+        "phpstan/phpstan-deprecation-rules": ">=1.1.4",
+        "pestphp/pest-plugin-arch": ">=2.7.0",
+        "pestphp/pest-plugin": ">=2.1.1",
+        "brianium/paratest": ">=7.4.3",
+        "illuminate/cache": ">=10.48.2",
+        "spatie/flare-client-php": ">=1.4.4",
+        "sebastian/recursion-context": ">=3.0.2",
+        "filp/whoops": ">=2.15.4",
+        "psy/psysh": ">=0.12.0",
+        "slevomat/coding-standard": ">=8.15.0",
+        "php-parallel-lint/php-parallel-lint": ">=1.3.2",
+        "php-mock/php-mock-mockery": ">=1.4.1",
+        "php-mock/php-mock": ">=2.5.0",
+        "paragonie/random-lib": ">=2.0.1",
+        "ergebnis/composer-normalize": ">=2.42.0",
+        "doctrine/annotations": ">=2.0.1",
+        "symfony/yaml": ">=7.0.3",
+        "symfony/routing": ">=7.0.5|6.4.5",
+        "symfony/uid": ">=7.0.3",
+        "captainhook/plugin-composer": ">=5.3.3",
+        "dealerdirect/phpcodesniffer-composer-installer": ">=1.0.0",
+        "tijsverkoyen/css-to-inline-styles": ">=2.2.5",
+        "graham-campbell/result-type": ">=1.1.2",
+        "phpoption/phpoption": ">=1.9.2",
+        "symfony/polyfill-ctype": ">=1.29.0",
+        "symfony/polyfill-php80": ">=1.29.0",
+        "bamarni/composer-bin-plugin": ">=1.8.2",
+        "vlucas/phpdotenv": ">=5.6.0",
+        "voku/portable-ascii": ">=2.0",
+        "webmozart/assert": ">=1.11.0",
+        "doctrine/coding-standard": ">=12.0.0",
+        "symfony/polyfill-intl-idn": ">=1.29.0",
+        "league/config": ">=1.2.0",
+        "illuminate/console": ">=11.0.5|^9.21|^10.0",
+        "illuminate/database": ">=10.39.0|^9.21",
+        "nikic/php-parser": ">=5.0.2|^4.15",
+        "illuminate/contracts": ">=11.0.5|^9.0",
+        "illuminate/support": ">=11.0.5|^9.0",
+        "orchestra/testbench": ">=9.0.0",
+        "illuminate/conditionable": ">=11.0.5|^9.0",
+        "illuminate/macroable": ">=11.0.5|^9.0",
+        "illuminate/collections": ">=11.0.5|10.48.3|^9.0",
+        "carbonphp/carbon-doctrine-types": ">=2.1.0",
+        "psr/clock": ">=1.0.0",
+        "symfony/http-client-contracts": ">=3.4.0",
+        "symfony/intl": ">=7.0.3",
+        "symfony/polyfill-intl-icu": ">=1.29.0",
+        "symfony/translation": ">=7.0.4|^6.4",
+        "symfony/deprecation-contracts": ">=3.4.0",
+        "symfony/clock": ">=7.0.5",
+        "doctrine/deprecations": ">=1.1.3",
+        "doctrine/event-manager": ">=1.2.0",
+        "doctrine/instantiator": ">=1.5.0",
+        "doctrine/persistence": ">=3.3.2",
+        "symfony/var-exporter": ">=7.0.4",
+        "phpbench/phpbench": ">=1.2.15",
+        "squizlabs/php_codesniffer": ">=3.7.2",
+        "friendsofphp/php-cs-fixer": ">=3.51.0",
+        "kylekatarnls/multi-tester": ">=2.5.3",
+        "ondrejmirtes/better-reflection": ">=6.21",
+        "phpmd/phpmd": ">=2.15.0",
+        "illuminate/container": ">=11.0.6|^9.0",
+        "illuminate/events": ">=11.0.6",
+        "illuminate/filesystem": ">=11.0.6",
+        "illuminate/view": ">=11.0.6",
+        "symfony/polyfill-intl-grapheme": ">=1.29.0",
+        "symfony/polyfill-intl-normalizer": ">=1.29.0",
+        "symfony/translation-contracts": ">=3.4.1",
+        "league/mime-type-detection": ">=1.15.0",
+        "league/flysystem-local": ">=3.23.1",
+        "symfony/string": ">=6.4.4",
+        "hamcrest/hamcrest-php": ">=2.0.1",
+        "jangregor/phpstan-prophecy": ">=0.8.1",
+        "php-parallel-lint/php-console-highlighter": ">=0.5",
+        "phpcsstandards/phpcsutils": ">=1.0.9",
+        "phpspec/prophecy-phpunit": ">=2.2.0",
+        "phpstan/extension-installer": ">=1.3.1",
+        "phpstan/phpstan-mockery": ">=1.1.2",
+        "psalm/plugin-mockery": ">=1.1.0",
+        "ramsey/coding-standard": ">=2.2.0",
+        "ramsey/conventional-commits": ">=1.5.0",
+        "ramsey/collection": ">=1.3.0",
+        "captainhook/captainhook": ">=5.22.1",
+        "symfony/polyfill-php83": ">=1.29.0",
+        "psr/http-client": ">=1.0",
+        "laravel/scout": ">=10.8.3|^9.4",
+        "doctrine/cache": "^1.11|^2.0",
+        "psr/cache": ">=1.0",
+        "phpspec/prophecy": ">=1.19.0|^1.12",
+        "sebastian/resource-operations": ">=3.0.3",
+        "phpdocumentor/reflection-docblock": ">=5.3.0|^5.2",
+        "maatwebsite/excel": ">=3.1.53",
+        "phpoffice/phpspreadsheet": ">=1.28.0",
+        "composer/semver": ">=3.4.0",
+        "ezyang/htmlpurifier": ">=4.17.0",
+        "maennchen/zipstream-php": ">=2.4.0",
+        "markbaker/complex": ">=3.0.0",
+        "markbaker/matrix-functions": ">=3.0.0",
+        "voku/anti-xss": ">=4.1.42",
+        "markbaker/matrix": ">=2.1.4"
+    }
+}

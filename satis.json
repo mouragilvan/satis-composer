@@ -1,0 +1,10 @@
+{
+    "name": "custom/packages",
+    "homepage": "https://meu-composer/repo/",
+    "require-all": true,
+    "archive": {
+        "directory": "dist",
+        "skip-dev": true
+    },
+    "repositories": []
+}

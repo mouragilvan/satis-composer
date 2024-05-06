@@ -1,0 +1,19 @@
+{
+    "name": "custom/packages",
+    "homepage": "https://meu-composer/repo/",
+    "require-all": false,
+    "minimum-stability": "stable",
+    "archive": {
+        "directory": "dist",
+        "skip-dev": true
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/validator.git"
+        }
+    ],
+    "require": {
+        "symfony/validator": ">=7.0.5"
+    }
+}

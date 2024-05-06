@@ -20,6 +20,11 @@ Custom and Simple Satis Server
 docker exec -it <nome do conteiner ou ID> /bin/bash
 ```
 
+#### Executar o comando de instalação das bibliotecas do composer
+```
+composer install
+```
+
 #### Definir um tempo para a execução do composer
 ```
  export COMPOSER_PROCESS_TIMEOUT=600

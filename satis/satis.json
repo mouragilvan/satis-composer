@@ -1153,6 +1153,51 @@
             "type": "vcs",
             "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
             "name": "phpdocumentor/reflection-docblock"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Masterminds/html5-php.git",
+            "name": "masterminds/html5"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/dompdf/php-font-lib.git",
+            "name": "dompdf/php-font-lib"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/dompdf/php-svg-lib.git",
+            "name": "dompdf/php-svg-lib"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/dompdf/dompdf.git",
+            "name": "dompdf/dompdf"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/MyIntervals/PHP-CSS-Parser.git",
+            "name": "sabberworm/php-css-parser"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/illuminate/auth.git",
+            "name": "illuminate/auth"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/tymondesigns/jwt-auth.git",
+            "name": "tymon/jwt-auth"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/lcobucci/jwt.git",
+            "name": "lcobucci/jwt"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/lcobucci/clock.git",
+            "name": "lcobucci/clock"
         }
     ],
     "require": {
@@ -1184,7 +1229,7 @@
         "league/commonmark": ">=2.3.8",
         "league/flysystem": ">=3.14.0",
         "monolog/monolog": ">=3.3.0|^2.0",
-        "nesbot/carbon": ">=2.72.2|2.59.1",
+        "nesbot/carbon": ">=2.72.2|2.59.1|^2.0",
         "nunomaduro/termwind": ">=1.15.0",
         "psr/container": ">=2.0.0",
         "psr/log": ">=1.0",
@@ -1382,6 +1427,15 @@
         "markbaker/complex": ">=3.0.0",
         "markbaker/matrix-functions": ">=3.0.0",
         "voku/anti-xss": ">=4.1.42",
-        "markbaker/matrix": ">=2.1.4"
+        "markbaker/matrix": ">=2.1.4",
+        "masterminds/html5": ">=2.7.0",
+        "dompdf/php-font-lib": ">=0.3.1",
+        "dompdf/php-svg-lib": ">=0.4.1",
+        "dompdf/dompdf": ">=1.2.2",
+        "sabberworm/php-css-parser": ">=5.2.1",
+        "illuminate/auth": ">=11.0|^10.48",
+        "tymon/jwt-auth": ">=1.0.0",
+        "lcobucci/jwt": ">=5.3.0|>=4.0",
+        "lcobucci/clock": ">=2.0"
     }
 }
